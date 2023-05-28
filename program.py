@@ -15,7 +15,7 @@ if iterations== "select":
     number= random.randint(1, 100)
     print("The value selected by the program is:", number)
     pi=formula(number)
-    print(pi)
+    print("The value of pi is:", pi)
 else:
     print("Error, please try again")
     
